@@ -52,7 +52,19 @@ header a:hover {
   color: #161616;
   text-decoration: underline;
 }
+header .button {
+  background-color: #ff8c38;
+  margin: 0 0.5rem;
+}
 
+header .button button {
+  border: none;
+  font-size: 2rem;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  color: black;
+  background-color: inherit;
+}
 a.active-link {
   font-weight: bold;
   text-decoration: underline;

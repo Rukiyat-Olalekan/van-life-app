@@ -37,7 +37,7 @@ function Header() {
         >
           <img src={navImg} alt="nav profile" />
         </NavLink>
-        <NavLink>
+        <NavLink className="button">
           <button onClick={fakeLogOut}>X</button>
         </NavLink>
       </nav>
